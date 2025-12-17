@@ -1,0 +1,12 @@
+<VirtualHost *:80>
+    ServerName    "publish"
+    ServerAlias   "*"
+    
+    <Directory />
+        <IfModule disp_apache2.c>
+            SetHandler dispatcher-handler
+        </IfModule>
+        Options FollowSymLinks
+        AllowOverride None
+    </Directory>
+</VirtualHost>

@@ -83,6 +83,7 @@
     
     <module>ui.tests</module>
       
+    <module>dispatcher</module>
   </modules>
           
   

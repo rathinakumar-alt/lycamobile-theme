@@ -1,0 +1,12 @@
+/0001 { /type "deny"  /glob "*" }
+/0002 { /type "allow" /glob "* *.css *"   }
+/0003 { /type "allow" /glob "* *.ico *"   }
+/0004 { /type "allow" /glob "* *.js *"    }
+/0005 { /type "allow" /glob "* *.png *"   }
+/0006 { /type "allow" /glob "* *.gif *"   }
+/0007 { /type "allow" /glob "* *.jpg *"   }
+/0008 { /type "allow" /glob "* *.jpeg *"  }
+/0009 { /type "allow" /glob "* *.svg *"   }
+/0010 { /type "allow" /glob "*.html" }
+/0011 { /type "allow" /method "POST" /url "/content/[.]*.form.html" }
+/0012 { /type "allow" /method "GET" /query "wcmmode=*" }

@@ -1,0 +1,29 @@
+/farms {
+  /publish {
+    /clientheaders {
+      $include "../clientheaders/clientheaders.any"
+    }
+    /virtualhosts {
+      $include "../virtualhosts/virtualhosts.any"
+    }
+    /renders {
+      $include "../renders/default_renders.any"
+    }
+    /filter {
+      $include "../filters/filters.any"
+    }
+    /cache {
+      $include "../cache/rules.any"
+    }
+    /statistics {
+      /categories {
+        /html {
+          /glob "*.html"
+        }
+        /others {
+          /glob "*"
+        }
+      }
+    }
+  }
+}
