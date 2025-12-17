@@ -2,10 +2,6 @@
   "name": "aem-maven-archetype",
   "version": "1.0.0",
   "description": "Generates an AEM Frontend project with Webpack",
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
   "private": true,
   "main": "src/main/webpack/site/main.ts",
   "license": "SEE LICENSE IN LICENSE.txt",
