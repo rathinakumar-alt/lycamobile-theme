@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/lycamobiletheme" mode="merge"/>
+    <filter root="/content/lycamobiletheme" mode="merge"/>
+    <filter root="/content/dam/lycamobiletheme" mode="merge">
+        <exclude pattern="/content/dam/lycamobiletheme(/.*)?"/>
+        <include pattern="/content/dam/lycamobiletheme/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/lycamobiletheme/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/lycamobiletheme" mode="merge"/>
+</workspaceFilter>
